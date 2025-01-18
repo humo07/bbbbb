@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work Hub Center</title>
     <style>
+        @media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr; /* Bir ustunda joylashadi */
+    }
+
+    .gallery {
+        grid-template-columns: 1fr; /* Bir ustunda rasm */
+    }
+
+    header nav a {
+        display: block; /* Havolalarni ustma-ust joylashtirish */
+        margin: 10px 0;
+    }
+}
+
         body{
             background-image: url("body.avif");
             background-size: cover; 
